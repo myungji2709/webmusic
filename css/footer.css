@@ -1,0 +1,194 @@
+*{
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+        }
+        footer #info{
+            width: 100%;
+            height: 50vh;
+            padding: 50px;
+            background: url(../images/footer-bg.jpg);
+            background-size: cover;
+        }
+        footer #info .contain {
+            width: 90%;
+            border-bottom: 1px solid #fff;
+            margin: 0px auto;
+        }
+        footer #info .contain .noidung{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding-bottom: 20px;
+        }
+        footer #info .contain .noidung .khung{
+            width: calc(90% / 3);
+        }
+        footer #info .contain .noidung .khung .logo img{
+            height: 25vh;
+            width: 100%;
+        }
+        footer #info .contain .noidung .khung .concert{
+            width: 80%;
+        }
+        footer #info .contain .noidung .khung .concert h3, footer #info .contain .noidung .khung .concert p{
+            margin-bottom: 30px;
+        }
+        footer #info .contain .noidung .khung .concert p{
+            color: #e58e26;
+        }
+        footer #info .contain .noidung .khung .concert h3,span{
+            color: #fff;
+        }
+        footer #info .contain .noidung .khung .social{
+            width: 50%;
+            color: #fff;
+        }
+        footer #info .contain .noidung .khung .social .chu h3, footer #info .contain .noidung .social .chu p{
+            margin-bottom: 30px;
+        }
+        footer #info .contain .noidung .khung .link i{
+            background: #fff;
+            display: inline-block;
+            height: 44px;
+            width: 44px;
+            text-align: center;
+            border-radius: 22px;
+            font-size: 20px;
+            color: dodgerblue;
+            line-height: 45px;
+            margin: 0px 3px ;
+        }
+        footer #info .contain .noidung .khung .link i:hover{
+            background: #e58e26;
+        }
+        footer #info .nguon{
+            padding-top: 20px;
+            text-align: center;
+            color: #e58e26;
+        }
+        /*Ipad ngang(1024 x 768)*/
+        @media screen and (max-width: 1024px){
+             footer #info{
+                height: 100vh;
+                padding-top: 20px;
+            }
+            footer #info .contain{
+                height: 80vh;
+            }
+            footer #info .contain .noidung .khung{
+                width: 100%;
+                text-align: center;
+            }
+            footer #info .contain .noidung .khung .logo img{
+                width: 35%;
+                height: 25vh;
+            }
+            footer #info .contain .noidung .khung .concert{
+                padding: 30px 0px;
+                width: 100%;
+            }
+            footer #info .contain .noidung .khung .social{
+                width: 100%;
+            } 
+        }
+        /*Ipad dọc(768 x 1024)*/
+        @media screen and (max-width: 768px){
+            footer #info{
+                height: 160vh;
+            }
+            footer #info .contain{
+                height: 120vh;
+            }
+            footer #info .contain .noidung .khung{
+                width: 100%;
+                text-align: center;
+            }
+            footer #info .contain .noidung .khung .logo img{
+                width: 55%;
+                height: 25vh;
+            }
+            footer #info .contain .noidung .khung .concert{
+                padding: 30px 0px;
+                width: 100%;
+            }
+            footer #info .contain .noidung .khung .social{
+                width: 100%;
+            } 
+        }
+        /*Tablet nhỏ(480 x 640)*/
+        @media screen and (max-width: 480px){
+            footer #info{
+                height: 160vh;
+            }
+            footer #info .contain{
+                height: 120vh;
+            }
+            footer #info .contain .noidung .khung{
+                width: 100%;
+                text-align: center;
+            }
+            footer #info .contain .noidung .khung .logo img{
+                width: 100%;
+                height: 50vh;
+            }
+            footer #info .contain .noidung .khung .concert{
+                padding: 30px 0px;
+                width: 100%;
+            }
+            footer #info .contain .noidung .khung .social{
+                width: 100%;
+            } 
+        }
+        /*Iphone(480 x 640)*/
+        @media screen and (max-width: 320px){
+            footer #info{
+                height: 160vh;
+            }
+            footer #info .contain{
+                height: 120vh;
+            }
+            footer #info .contain .noidung .khung{
+                width: 100%;
+                text-align: center;
+            }
+            footer #info .contain .noidung .khung .logo img{
+                width: 100%;
+                height: 25vh;
+            }
+            footer #info .contain .noidung .khung .concert{
+                padding: 30px 0px;
+                width: 100%;
+            }
+            footer #info .contain .noidung .khung .social{
+                width: 100%;
+            } 
+        }        
+        /*Smart phone nhỏ*/
+        @media screen and (max-width: 240px){
+            footer #info{
+                height: 160vh;
+            }
+            footer #info .contain{
+                height: 120vh;
+                width: 100%;
+            }
+            footer #info .contain .noidung .khung{
+                width: 100%;
+                text-align: center;
+            }
+            footer #info .contain .noidung .khung .logo img{
+                width: 100%;
+                height: 25vh;
+            }
+            footer #info .contain .noidung .khung .concert{
+                padding: 30px 0px;
+                width: 100%;
+            }
+            footer #info .contain .noidung .khung .social{
+                width: 100%;
+            } 
+        }
+
+
+
